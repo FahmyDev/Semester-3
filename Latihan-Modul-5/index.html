@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    .container {
+        display: flex; /* Mengatur tata letak menjadi flexbox */
+        flex-direction: column; /* Mengatur tata letak kolom untuk responsif */
+    }
+
+    .header {
+        background-color: #cdd1d3;
+        border-top-left-radius: 40px;
+        padding: 20px;
+        width: 250px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 10px;
+    }
+
+    .logo {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 20px;
+    }
+
+    .header-2 {
+        background-color: #0074a2;
+        border-bottom-right-radius: 40px;
+        padding: 20px;
+        width: 250px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+    }
+
+    .header p {
+        background-color: blue;
+        padding: 10px;
+    }
+
+    .navigation {
+        background-color: #f2f2f2;
+        padding: 10px;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column; /* Mengatur tata letak kolom untuk navigasi */
+    }
+
+    .navigation ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .navigation li {
+        margin-bottom: 10px; /* Menambahkan jarak antara setiap item navigasi */
+    }
+
+    .navigation a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .teks-dipojok-kanan-bawah {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin: 10px; /* Jarak dari tepi halaman */
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="header" style="height: 300px;">
+            <img class="logo" src="assets/img/logo.png" alt="Logo Kampus">
+            <p>Artikel Populer</p>
+            <li href="">Desain Web</li>
+            <li href="">HTML</li>
+            <li href="">CSS</li>
+            <li href="">Polibang</li>
+        </div>
+        <div class="header-2">
+            <h1>polibang</h1><br>
+            <h5>dsfaf</h5>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="#">Menu 1</a></li>
+                    <li><a href="#">Menu 2</a></li>
+                    <li><a href="#">Menu 3</a></li>
+                    <li><a href="#">Menu 4</a></li>
+                    <li><a href="#">Menu 5</a></li>
+                    <li><a href="#">Menu 6</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</body>
+</html>

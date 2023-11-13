@@ -1,0 +1,5 @@
+body {
+    background-image: url(img/image.jpg);
+    /* mengulang gambar ke bawah */
+    background-repeat: repeat;
+}
